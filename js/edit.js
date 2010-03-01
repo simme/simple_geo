@@ -112,7 +112,6 @@ if (google && google.load) {
       else {
         //Add existing vertexes.
         vert = polygon_wkt_to_latlng(aCoords);
-        console.log(vert);
         vert_count = vert.length;
       }
 
